@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+:root {}
+
+body {
+    background-image: url("/static/resource/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-image: url("/static/resource/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 210px;
+    margin-top: 50px;
+}
+
+.img_result {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 480px;
+    height: 520px;
+    cursor: pointer;
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.share {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.tools .back_button {
+    background-image: url("/static/resource/btn_back.png");
+    background-size: cover;
+    border: none;
+    width: 105px;
+    height: 60px;
+    cursor: pointer;
+    margin-right:25px
+}
+
+.tools .save_button {
+    background-image: url("/static/resource/btn_save.png");
+    background-size: cover;
+    border: none;
+    width: 105px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.share .kakao_share {
+    display: inline-block;
+    padding: .5em .75em;
+    color: #999;
+    font-size: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #fdfdfd;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    margin: 0 10px;
+}
