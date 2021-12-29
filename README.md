@@ -62,3 +62,39 @@ data_root_sketch_3 = 'D:\\Jupyter\\testDataset\\sketch6'
   - LPIPS score 계산
 - sketch_styletransfer
   - sketch synthesis model 학습 코드
+
+## 5. requirements
+certifi==2021.5.30
+cycler==0.10.0
+entrypoints==0.3
+flask==1.0.2
+imageio==2.9.0
+jupyter==1.0.0
+kiwisolver==1.3.1
+matplotlib==3.4.2
+mistune==0.8.4
+mkl-fft==1.3.0
+mkl-service==2.4.0
+networkx==2.6.2
+olefile==0.46
+opencv-python==4.5.3.56
+pandas==1.3.1
+python==3.6.5
+pytz==2021.1
+PyWavelets==1.1.1
+pywin32==228
+pywinpty==0.5.7
+pyzmq==20.0.0
+QtPy==1.9.0
+scikit-image==0.18.2
+scipy==1.7.1
+sip==4.19.13
+terminado==0.9.4
+tifffile==2021.8.8
+torch==1.7.0
+torchaudio==0.7.0
+torchvision==0.8.0
+tqdm==4.62.0
+webencodings==0.5.1
+widgetsnbextension==3.5.1
+wincertstore==0.2
