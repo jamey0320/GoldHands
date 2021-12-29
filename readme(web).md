@@ -4,12 +4,13 @@
   📁 static
   	📁 css
   		📄 main_style.css   
-      📄 result_style.css
+      		📄 result_style.css
   	📁 image
   		🖼 Loading-bar1.gif
-      🖼 Loading-bar2.gif
+      		🖼 Loading-bar2.gif
   	📁 js
   		📄 canvas_js.js
+	📁 resource   // css resource image
   	📁 predict   // image predict result
   	📁 uploads   // sketch upload
       
@@ -26,7 +27,7 @@
 				📄 19.pth
 				
 				
-  📁 imgStyle         // 이미지 생성시 참조할 style
+  📁 imgStyle         // 이미지 생성시 사용되는 style 데이터셋
   	📁 0000
     📁 0001
        :
